@@ -78,7 +78,6 @@ session    optional     pam_mail.so
 ```
 
 <aside>
-💡
 
 - `auth required pam_securetty.so`: 사용자가 `root`로 로그인할 때 `securetty` 파일에 정의된 터미널에서만 로그인할 수 있습니다.
 - `auth required pam_unix.so nullok`: Unix 시스템의 사용자 비밀번호를 확인합니다. `nullok` 옵션은 비밀번호가 없는 계정도 허용합니다.
